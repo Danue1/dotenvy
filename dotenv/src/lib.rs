@@ -28,6 +28,7 @@ static START: Once = Once::new();
 ///
 /// The value is `Ok(s)` if the environment variable is present and valid unicode.
 ///
+///
 /// Note: this function gets values from any visible environment variable key,
 /// regardless of whether a *.env* file was loaded.
 ///
